@@ -21,15 +21,18 @@ header{
 	font-size: 18px;
 	margin-top: 20px;
 }
-.headbut{
+
+.button{
     width: 200px;
 	height: 50px;
 	background-color: #ffffff;
 	border-radius: 25px;
 	font-size: 18px;
-	color: #072b6f;
+	color: #ff9600;
 	font-weight: 700;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
 .portfolio{
     margin: 0;
 	background-color: #dddddd;
@@ -101,12 +104,10 @@ footer {
 	.header-pretitle{
 		margin-top: 60px;
 	}
-	    .portfolio-block{
-	padding-left: 20px;
-	padding-right: 20px;
-	align-content: center;
-    }
 
+	.portfolio-block{
+	margin-right: 100px;    }
+	
 
 }
 @media (max-width: 992px){
@@ -117,19 +118,22 @@ footer {
 		.header-pretitle{
 		margin-top: 10px;
     }
+    .portfolio-block{
+	padding-left: 100px;
+    }
 
     
     .title{
     	align-content: center;
     	padding-bottom: 25px;
     }
- 
-    
-    
-
 }
 
-@media (768px) {
-			.img-imac{
-			display:none;
+@media (max-width: 768px;){
+    .port1. .port2{
+	padding-right: 100px;
+}
+	.img1, .img2 {
+		display: none;
+	}
 }
